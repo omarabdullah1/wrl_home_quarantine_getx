@@ -1,0 +1,45 @@
+name: wrl_home_quarantine_getx
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_foreground_task: ^3.4.1
+  timer_button: ^2.0.0
+  wifi_iot: ^0.2.2
+  flutter_gsmcelllocation: ^0.0.1
+  all_sensors2: ^1.0.1
+  motion_sensors: ^0.0.5
+  sensors: '>=0.4.2+5 <2.0.0'
+  blue: ^0.0.1
+  flutter_bluetooth_serial: ^0.4.0
+  flutter_headset_detector: ^2.1.0
+  conditional_builder: ^1.0.2
+  get:
+  dio: ^4.0.0
+  shared_preferences: ^2.0.5
+  fluttertoast: ^8.0.3
+  cupertino_icons: ^1.0.2
+  network_info_plus: ^2.1.1
+  percent_indicator: ^3.4.0
+  stats: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
